@@ -1,0 +1,29 @@
+<section id="cv">
+    <div class="container">
+        <h2><strong>   {{'education.title' | translate}}</strong></h2>
+        <span class="bar-title mb-5"></span>
+    </div>
+    <ngx-extended-pdf-viewer
+        [src]="'/assets/Rutvik_CV.pdf'"
+        [showToolbar]="true"
+        [showSidebarButton]="true"
+        [showFindButton]="true"
+        [showPagingButtons]="true"
+        [showDrawEditor]="true"
+        [showStampEditor]="true"
+        [showTextEditor]="true"
+        [showZoomButtons]="true"
+        [showPresentationModeButton]="true"
+        [showOpenFileButton]="true"
+        [showPrintButton]="true"
+        [showDownloadButton]="true"
+        [showSecondaryToolbarButton]="true"
+        [showRotateButton]="true"
+        [showHandToolButton]="true"
+        [showScrollingButton]="true"
+        [showSpreadButton]="true"
+        [showPropertiesButton]="true"
+        [filenameForDownload]="downloadFileName"
+        [height]="'auto'">
+        </ngx-extended-pdf-viewer>
+</section>
